@@ -26,7 +26,7 @@ def main():
 
     parser.add_argument("--character", type=str, help="Name of a Harry Potter Character", default = "Harry Potter")
 
-    parser.add_argument("--personality", type=str, help="A brief summery of the character's personality", default = "friendly")
+    parser.add_argument("--personality", type=str, help="A brief summary of the character's personality", default = "friendly")
 
     args = parser.parse_args()
 
